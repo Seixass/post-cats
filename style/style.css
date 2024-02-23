@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  overflow: auto;
+}
+
+header {
+  display: flex;
+  width: 100%;
+  background: #eb6f4d;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.nav-bar {
+  display: flex;
+  width: 100%;
+  height: auto;
+  justify-content: space-between;
+}
+
+.box-logo {
+  padding: 5px;
+  transform: rotate(180deg);
+}
+
+.logo {
+  width: auto;
+  height: 40px;
+  margin-left: 5rem;
+  border-radius: 5px;
+}
+
+.box-btn {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 15px;
+  gap: 1rem;
+}
+
+.box-btn button {
+  width: 70px;
+  height: 40px;
+  font-weight: 900;
+  background: transparent;
+  border: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8rem;
+  margin-bottom: 15rem;
+}
+
+/* CATS BOX  */
+
+.container .first-cats {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+
+.first-cats img {
+  width: 300px;
+}
+
+.medium-cats img {
+  width: auto;
+  height: 38.3em;
+}
+
+.medium-cats02 img {
+  width: 56.3em;
+  height: auto;
+}
+
+.medium-cats03 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.medium-cats03 img {
+  width: auto;
+  height: 28.2em;
+}
+
+.medium-cats04 {
+  height: auto;
+  width: 40em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+}
+
+.medium-cats04 img {
+  width: 235em;
+  height: 28.6em;
+}
+
+.last-one-cats img {
+  width: auto;
+  height: 41.4em;
+}
+
+/* RESPONSIVIDADE  */
+
+
+@media (max-width: 768px) {
+  .logo{
+    margin: 0;
+  }
+
+  .first-cats img {
+    width: 100px;
+  }
+
+  .medium-cats img {
+    width: auto;
+    height: 12.7em;
+  }
+
+  .medium-cats02 img {
+    width: auto;
+    height: 14em;
+  }
+
+  .medium-cats03 img {
+    width: auto;
+    height: 9.5em;
+  }
+
+  .medium-cats04 img {
+    width: auto;
+    height: 9.7em;
+  }
+
+  .last-one-cats img {
+    width: auto;
+    height: 14.1em;
+  }
+}
